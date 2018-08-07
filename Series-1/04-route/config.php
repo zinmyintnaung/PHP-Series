@@ -1,6 +1,6 @@
 <?php
 return [
-    'databases' => [
+    'database' => [
         'name' => 'mytodo',
         'username' => 'root',
         'password' => '',
