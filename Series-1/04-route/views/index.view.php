@@ -8,8 +8,9 @@
 </head>
 <body>
     <ul>
-        <li><a href='contact.php'>Contact</a></li>
-        <li><a href='about.php'>About</a></li>
+        <!-- in real case, you will just need 'contact', 'about' only, instead of giving long path -->
+        <li><a href='/PHP-Series/Series-1/04-route/index.php/contact'>Contact</a></li>
+        <li><a href='/PHP-Series/Series-1/04-route/index.php/about'>About</a></li>
     </ul>
     <ul>
         <?php foreach($tasks as $task): ?>
