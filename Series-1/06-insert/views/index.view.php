@@ -1,13 +1,9 @@
 <?php require 'partials/header.php'; ?>
-    <ul>
-        <?php foreach($tasks as $task): ?>
-            <li>
-                <?php if($task->completed): ?>
-                    <strike><?= $task->description; ?></strike>
-                <?php else: ?>
-                    <?= $task->description; ?>
-                <?php endif; ?>
-            </li>
-        <?php endforeach; ?>
-    </ul>
+<h1>Submit your name</h1>
+
+<form method="POST" action="/PHP-Series/Series-1/06-insert/index.php/names">
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
+
 <?php require 'partials/footer.php'; ?>

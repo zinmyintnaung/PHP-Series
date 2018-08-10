@@ -1,11 +1,11 @@
 <?php
 
-$router->define([
-    'PHP-Series/Series-1/05-view' => 'controllers/index.php',
-    'PHP-Series/Series-1/05-view/index.php/about'=> 'controllers/about.php',
-    'PHP-Series/Series-1/05-view/index.php/about/culture' => 'controllers/about-culture.php',
-    'PHP-Series/Series-1/05-view/index.php/contact' => 'controllers/contact.php'
-]);
+$router->get('PHP-Series/Series-1/06-insert', 'controllers/index.php');
+$router->get('PHP-Series/Series-1/06-insert/index.php/about', 'controllers/about.php');
+$router->get('PHP-Series/Series-1/06-insert/index.php/about/culture', 'controllers/about-culture.php');
+$router->get('PHP-Series/Series-1/06-insert/index.php/contact', 'controllers/contact.php');
+$router->get('PHP-Series/Series-1/06-insert/index.php/public/css/style.css', 'public/css/style.css');
+$router->post('PHP-Series/Series-1/06-insert/index.php/names', 'controllers/add-name.php');
 
 /*
 On production, you should have clean URI request rather than path to folder under xampp htdocs
