@@ -6,7 +6,7 @@
 
 <h1>Submit your name</h1>
 
-<form method="POST" action="/PHP-Series/Series-1/06-insert/index.php/names">
+<form method="POST" action="/PHP-Series/Series-1/07-autoloading/index.php/names">
     <input type="text" name="name">
     <button type="submit">Submit</button>
 </form>
